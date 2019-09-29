@@ -29,6 +29,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   height: inherit;
   border-radius: 40px;
   object-fit: cover;
+  outline:none;
 }
 
 .card .card_title {
@@ -60,24 +61,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+  body
+{
+	background-repeat:no-repeat;
+}
 }
 
 
-/*
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  transition: 0.4s;
+body
+{
+	background-repeat:no-repeat;
 }
-*/
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
@@ -111,7 +105,7 @@ $(document).ready(function(){
 <div class="cards-list">
   
 <div class="card one">
-  <div class="card_image"> <img src="4.jpg" /> </div>
+  <div class="card_image"> <img src="images/4.jpg" /> </div>
   <div class="card_title title-white">
     <p>Dubai</p>
   </div>
@@ -119,7 +113,7 @@ $(document).ready(function(){
 
   <div class="card two">
   <div class="card_image">
-    <img src="3.jpg" />
+    <img src="images/3.jpg" />
     </div>
   <div class="card_title title-white">
     <p>Goa</p>
@@ -128,7 +122,7 @@ $(document).ready(function(){
 
 <div class="card three">
   <div class="card_image">
-    <img src="1.jpg" />
+    <img src="images/1.jpg" />
   </div>
   <div class="card_title title-white">
     <p>Thailand</p>
@@ -137,7 +131,7 @@ $(document).ready(function(){
   
   <div class="card four">
   <div class="card_image">
-    <img src="2.jpg" />
+    <img src="images/2.jpg" />
     </div>
   <div class="card_title title-white">
     <p>Malaysia</p>
